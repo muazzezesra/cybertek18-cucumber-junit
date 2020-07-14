@@ -17,6 +17,12 @@ public class wikiSearchPage {
     @FindBy(xpath = "//i[.='Search']")
     public WebElement searchButton;
 
+    @FindBy(id = "firstHeading")
+    public WebElement mainHeaderAfterSearch;
+
+    @FindBy(className = "fn")
+    public WebElement imageHeaderAfterSearch;
+
 
 
 

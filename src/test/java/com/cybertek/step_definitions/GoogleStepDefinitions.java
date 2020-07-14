@@ -9,6 +9,8 @@ import org.junit.Assert;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 
+import java.util.List;
+
 public class GoogleStepDefinitions {
 
     GoogleSearchPage googleSearchPage = new GoogleSearchPage();
@@ -49,15 +51,35 @@ public class GoogleStepDefinitions {
        boolean aboutlink = googleSearchPage.aboutLink.isDisplayed();
        Assert.assertTrue(aboutlink);
     }
+
     @Then("User clicks About link")
     public void user_clicks_about_link() {
-      googleSearchPage.aboutLink.click();
+
+        googleSearchPage.aboutLink.click();
     }
+
     @Then("User should see title Google - About Google, Our Culture & Company News")
     public void user_should_see_title_google_about_google_our_culture_company_news() {
        String actualtitle = Driver.getDriver().getTitle();
        String expectedtitle = "Google - About Google, Our Culture & Company News";
        Assert.assertEquals(actualtitle,expectedtitle);
     }
+
+
+    @Then("User should see six links in the footer")
+    public void user_should_see_six_links_in_the_footer(List<String> linkStrings) {
+
+        for (WebElement each: googleSearchPage.footerLinks) {
+           String a=  each.getText();
+            System.out.println(a);
+        }
+
+        int expectedsize = 6;
+        int actualSize = linkStrings.size();
+
+        Assert.assertEquals(actualSize,expectedsize);
+    }
+
+
 
 }

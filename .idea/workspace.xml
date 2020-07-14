@@ -2,16 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c70ec6d-bba8-4c39-9e77-74a2e3eab984" name="Default Changelist" comment="new code">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/EtsySearchPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/wikiSearchPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/step_definitions/WikiStepDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/WikiSearch.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/step_definitions/DataTableStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/DataTableExample.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/GoogleSearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/GoogleSearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/wikiSearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/wikiSearchPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/runners/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/step_definitions/EtsyStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/step_definitions/EtsyStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/step_definitions/GoogleStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/step_definitions/GoogleStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/step_definitions/WikiStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/step_definitions/WikiStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Search.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/WikiSearch.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/WikiSearch.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/pages/wikiSearchPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/pages/wikiSearchPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/runners/CukesRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/runners/CukesRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/step_definitions/EtsyStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/step_definitions/EtsyStepDefinitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/step_definitions/WikiStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/step_definitions/WikiStepDefs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Search.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/WikiSearch.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/WikiSearch.feature" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +116,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

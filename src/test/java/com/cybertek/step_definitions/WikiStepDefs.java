@@ -28,4 +28,19 @@ public class WikiStepDefs {
         Assert.assertTrue(driver.getTitle().contains(string));
     }
 
+    @Then("User should see {string} in the main header")
+    public void user_should_see_in_the_main_header(String expected) {
+
+        String actualHeaderText = wikiSearchPage.mainHeaderAfterSearch.getText();
+
+        Assert.assertEquals(actualHeaderText, expected);
+    }
+
+
+    @Then("User should see {string} in the image header")
+    public void user_should_see_in_the_image_header(String string) {
+      String actualHeader = wikiSearchPage.imageHeaderAfterSearch.getText();
+      Assert.assertEquals(actualHeader,string);
+    }
+
 }
